@@ -1,3 +1,29 @@
-.logo-roma {
+.navbar-up {
+  background-color: orange;
+  display: flex;
+  justify-content: end;
+  padding: 1rem;
+}
 
+.logo-left {
+  width: 3rem;
+}
+.logo-right {
+  width: 2rem;
+}
+
+.navbar-down {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  padding: 1.5rem;
+}
+
+.navbar-down-elements {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  font-weight: 600;
+  color: antiquewhite;
+  font-style: inherit;
 }

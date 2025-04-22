@@ -1,11 +1,14 @@
 import React from "react";
-import romaLogo from "../assets/as-roma.svg";
-import { asRomaNavbarList } from "../utils/data";   
+import { asRomaNavbarList } from "../utils/data";
+import AsRomaNavbarUp from "../components/AsRomaNavbarUp";
+import AsRomaNavbarDown from "../components/AsRomaNavbarDown";
+import "./roma.css";
 
 const AsRomaNavbar = () => {
   return (
-    <div className="navbar-left">
-      <img className="logo-roma" src={romaLogo} alt={"Roma Logo"} />
+    <div>
+      <AsRomaNavbarUp />
+      <AsRomaNavbarDown />
     </div>
   );
 };

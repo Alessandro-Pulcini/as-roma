@@ -1,7 +1,9 @@
+import { AsRomaNavbarElements } from "../interfaces/interfaces";
+
 export const asRomaNavbarList: Array<AsRomaNavbarElements> = [
-  { id: 0, text: "Squadre" },
-  { id: 0, text: "Calendario" },
-  { id: 0, text: "Risultati" },
-  { id: 0, text: "Romanisti" },
-  { id: 0, text: "Notizie" },
+  { id: 0, text: "SQUADRE" },
+  { id: 0, text: "CALENDARIO" },
+  { id: 0, text: "RISULTATI" },
+  { id: 0, text: "ROMANISTI" },
+  { id: 0, text: "NOTIZIE" },
 ];
