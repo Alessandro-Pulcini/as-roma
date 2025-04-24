@@ -4,7 +4,7 @@ import hamburgerLogo from "../assets/hamburger.png";
 import sortDown from "../assets/down.png";
 import search from "../assets/searchh.png";
 
-const NavbarDownLeft = () => {
+const NavbarDown = () => {
   return (
     <div className="navbar-down">
       <div className="navbar-down-left">
@@ -32,4 +32,4 @@ const NavbarDownLeft = () => {
   );
 };
 
-export default NavbarDownLeft;
+export default NavbarDown;
