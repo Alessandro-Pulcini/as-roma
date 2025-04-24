@@ -1,29 +1,52 @@
 .navbar-up {
-  background-color: orange;
+  background-color: #fbba00;
   display: flex;
   justify-content: end;
   padding: 1rem;
+  gap: 20px;
 }
 
 .logo-left {
   width: 3rem;
+  cursor: pointer;
 }
 .logo-right {
-  width: 2rem;
+  width: 1.5rem;
+  cursor: pointer;
+}
+
+.hamburger,
+.sort-down,
+.search {
+  width: 1.2rem;
+  cursor: pointer;
 }
 
 .navbar-down {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-  padding: 1.5rem;
+  background-color: #990a2c;
+  padding: 0 30px 0 130px;
 }
 
-.navbar-down-elements {
+.navbar-down-left,
+.navbar-down-right {
   display: flex;
   flex-direction: row;
-  margin: 1rem;
+}
+
+.navbar-down-elements,
+.text {
+  display: flex;
+  flex-direction: row;
   font-weight: 600;
   color: antiquewhite;
   font-style: inherit;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.logo-roma {
+  display: flex;
+  justify-items: flex-start;
+  position: absolute;
+  left: 10px;
 }

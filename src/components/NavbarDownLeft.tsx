@@ -1,9 +1,12 @@
 import React from "react";
 import { asRomaNavbarList } from "../utils/data";
+import hamburgerLogo from "../assets/hamburger.png";
 
-const RomaNavbarDown = () => {
+const NavbarDownLeft = () => {
   return (
     <div className="navbar-down">
+      <div className="navbar-down-left">
+      <img className="hamburger" src={hamburgerLogo} alt="hamburger" />
       {asRomaNavbarList.map((element) => {
         return (
           <div
@@ -15,8 +18,9 @@ const RomaNavbarDown = () => {
           </div>
         );
       })}
+      </div>
     </div>
   );
 };
 
-export default RomaNavbarDown;
+export default NavbarDownLeft;
