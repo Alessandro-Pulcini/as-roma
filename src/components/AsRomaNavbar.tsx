@@ -2,10 +2,8 @@ import React from "react";
 import { asRomaNavbarList } from "../utils/data";
 import NavbarUp from "./NavbarUp";
 import NavbarDown from "./NavbarDown";
-import ExampleCarouselImage from "./ExampleCarouselImage";
 import roma from "../assets/as-roma.svg";
 import "./asroma.css";
-
 
 const AsRomaNavbar = () => {
   return (
@@ -13,7 +11,6 @@ const AsRomaNavbar = () => {
       <img className="logo-roma" src={roma} alt="roma logo" />
       <NavbarUp />
       <NavbarDown />
-      <ExampleCarouselImage />
     </div>
   );
 };
