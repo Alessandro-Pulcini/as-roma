@@ -5,7 +5,7 @@ type Props = {
 };
 
 const ExampleCarouselImage: React.FC<Props> = ({ text }) => (
-  <div className="w-full h-svh bg-indigo-500 flex items-center justify-center text-2xl font-bold text-white">
+  <div className="w-full h-svh bg-gray-400 flex items-center justify-center text-2xl font-bold text-white">
     {text}
   </div>
 );

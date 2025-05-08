@@ -9,7 +9,7 @@ import rightArrow from "../assets/right-arrow.png";
 
 const NavbarDown = () => {
   return (
-    <div className="navbar-down">
+    <div className="navbar-down w-full max-w-screen">
       <div className="navbar-down-left">
         <img className="hamburger" src={hamburgerLogo} alt="hamburger" />
         {asRomaNavbarList.map((element) => {
