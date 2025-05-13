@@ -1,33 +1,36 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import ExampleCarouselImage from "../components/ExampleCarouselImage";
-import asRomaMonster from "../assets/roma-monster.jpg";
+import asRomaFoto from "../assets/roma-foto.jpg";
 import rissaRomaLazio from "../assets/rissa-roma-lazio.jpg";
+import asRomaFotoAllenatore from "../assets/roma-foto-allenatore.jpg";
 
 function AsRomaCarousel() {
   return (
     <Carousel>
       <Carousel.Item>
-        <ExampleCarouselImage text="First slide" imageUrl={asRomaMonster} />
+        <ExampleCarouselImage imageUrl={asRomaFoto} />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className="text-yellow-500 font-bold">FIORENTINA-ROMA 0-1</h3>
+          <p className="font-bold text-xl">GIALLOROSSE IN CHAMPIONS!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Second slide" imageUrl={rissaRomaLazio} />
+        <ExampleCarouselImage imageUrl={rissaRomaLazio} />
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className="text-yellow-500 font-bold">RISSA ROMA-LAZIO</h3>
+          <p className="font-bold text-xl">UNA RISSA DA PAURA!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <ExampleCarouselImage text="Third slide" />
+        <ExampleCarouselImage imageUrl={asRomaFotoAllenatore} />
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <iframe
+            className="aspect-video w-5/6 flex items-center py-12 right-0 left-0 mx-auto"
+            src="https://www.youtube.com/embed/w7QVxewtoXI?si=vMUQWXJUNpLFffvy"
+          ></iframe>
+          <h3 className="text-yellow-500 font-bold">MAI SOLI MAI</h3>
+          <p className="font-bold text-xl">UNA SORPRESA SPECIALE...</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
